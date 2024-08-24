@@ -58,7 +58,7 @@ Customize firewall rules in the config/iptables_rules.sh file.
 1. Run the Script
 Execute the script with root privileges:
 `
-sudo ./security_audit.sh
+sudo ./security.sh
 `
 The script will perform a security audit and apply hardening measures, logging all activities to /var/log/security_audit.log.
 
