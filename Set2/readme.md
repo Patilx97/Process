@@ -41,3 +41,14 @@ For Red Hat-based systems:
 `
 yum install iptables iproute
 `
+## Configuration
+The script uses default configurations but can be customized using the configuration files provided in the config directory.
+
+1. SSH Key Configuration
+Place your SSH public key in the config/authorized_keys file.
+
+2. GRUB Bootloader Configuration
+Update the config/grub_password.txt file with the desired GRUB password.
+
+3.Firewall Rules
+Customize firewall rules in the config/iptables_rules.sh file.
