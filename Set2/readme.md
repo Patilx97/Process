@@ -62,9 +62,4 @@ sudo ./security.sh
 `
 The script will perform a security audit and apply hardening measures, logging all activities to /var/log/security_audit.log.
 
-2. Review the Log File
-After execution, review the log file for details on the audit and hardening process:
-`
-cat /var/log/security_audit.log
-`
 
