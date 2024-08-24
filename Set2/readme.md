@@ -23,14 +23,14 @@ This script automates security audits and server hardening processes for Linux s
 
 The script relies on standard Linux utilities. Ensure you have the following packages installed:
 
-  -- bash
-  -- awk
-  -- grep
-  -- ss
-  -- find
-  -- systemctl
-  -- iptables or ufw
-  -- apt-get, yum, or dnf (depending on your distribution)
+  -- bash  
+  -- awk  
+  -- grep  
+  -- ss  
+  -- find  
+  -- systemctl  
+  -- iptables or ufw  
+  -- apt-get, yum, or dnf (depending on your distribution)  
 
 For Debian-based systems:
 `
