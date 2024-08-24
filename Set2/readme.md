@@ -52,3 +52,19 @@ Update the config/grub_password.txt file with the desired GRUB password.
 
 3. Firewall Rules
 Customize firewall rules in the config/iptables_rules.sh file.
+
+## Usage
+
+1. Run the Script
+Execute the script with root privileges:
+`
+sudo ./security_audit.sh
+`
+The script will perform a security audit and apply hardening measures, logging all activities to /var/log/security_audit.log.
+
+2. Review the Log File
+After execution, review the log file for details on the audit and hardening process:
+`
+cat /var/log/security_audit.log
+`
+
