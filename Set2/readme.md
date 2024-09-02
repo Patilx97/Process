@@ -16,7 +16,7 @@ This script automates security audits and server hardening processes for Linux s
 1. **Clone this Repository**
 
 2. **Make the Script Executable**
-`chmod +x security_audit.sh
+`chmod +x Security.sh
 `
 
 3. **Ensure Dependencies are Installed**
